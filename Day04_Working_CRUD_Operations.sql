@@ -25,6 +25,8 @@ values(3,'Guptha',"hello@example.com",19);
 insert into people_information (id,full_name,age)
 values(4,'Eswara Rao',19);
 
+insert into people_information values(5,'HelloWorld','hello@World.gmail.com',22,'Ongole');
+
 # R -> Reading which is key using (select)
 
 # Seeing the inside data of a table 
@@ -33,6 +35,19 @@ select * from people_information;
 # Showing Particular columns 
 select id,age from people_information;
 select id,full_name,email from people_information;
+
+# U -> Update the column
+update people_information
+set age = 20
+where id = 0;
+
+update people_information
+set email = 'guptha11@gmail.com'
+where full_name = 'Guptha';
+
+# D -> Delete row 
+delete from people_information
+where age > 20;
 
 
 
