@@ -40,3 +40,15 @@ show tables from herambha;
 # Drop The Table From Database
 drop table student;
 
+show database;
+
+use students;
+
+create table student_info(
+  id int,
+  stu_name,
+  stu_father_name,
+  stu_father_phone,
+  stu_email,
+);
+
