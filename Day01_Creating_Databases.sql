@@ -1,6 +1,6 @@
 # Create Databases 
 
-#create database karthikeya;
+create database karthikeya;
 create database Herambha;
 create database guptha;
 
@@ -14,3 +14,7 @@ use herambha;
 drop database karthikeya;
 drop database guptha;
 drop database herambha;
+
+
+create database Students;
+
